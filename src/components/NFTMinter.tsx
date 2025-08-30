@@ -127,7 +127,7 @@ const TwitterVerification: React.FC<{ onVerified: (username: string) => void }> 
               <div style={{ marginBottom: '12px' }}>
                 <span style={{ marginRight: '10px' }}>1️⃣</span>
                 <a 
-                  href="https://twitter.com/intent/like?tweet_id=1961374436935778418" 
+                  href="https://twitter.com/intent/like?tweet_id=1961793242220941435" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   style={{ 
@@ -154,7 +154,7 @@ const TwitterVerification: React.FC<{ onVerified: (username: string) => void }> 
               <div style={{ marginBottom: '10px' }}>
                 <span style={{ marginRight: '10px' }}>2️⃣</span>
                 <a 
-                  href="https://twitter.com/intent/retweet?tweet_id=1961374436935778418" 
+                  href="https://twitter.com/intent/retweet?tweet_id=1961793242220941435" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   style={{ 
