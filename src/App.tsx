@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { WagmiProvider, createConfig, http } from 'wagmi'
+import { useState, useEffect } from 'react'
+import { WagmiProvider, http } from 'wagmi'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { RainbowKitProvider, getDefaultConfig } from '@rainbow-me/rainbowkit'
 import { monadTestnet } from './config/chains'
@@ -22,7 +22,6 @@ const queryClient = new QueryClient()
 function App() {
   const [puzzleCompleted, setPuzzleCompleted] = useState(false)
 
-  // Проверяем сохраненный прогресс
   useEffect(() => {
     const completed = localStorage.getItem('monadPuzzleCompleted')
     if (completed === 'true') {

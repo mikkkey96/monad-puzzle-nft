@@ -366,7 +366,6 @@ const NFTMinter: React.FC = () => {
     abi: CONTRACT_ABI,
     functionName: 'hasMinted',
     args: address ? [address] : undefined,
-    enabled: !!address,
   })
 
   const { data: totalSupplyData, refetch: refetchSupply } = useContractRead({

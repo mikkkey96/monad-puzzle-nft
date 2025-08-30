@@ -56,3 +56,12 @@ node_modules/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Hardhat files (не нужны для фронтенда)
+hardhat.config.*
+scripts/
+contracts/
+test/
+artifacts/
+cache/
+typechain-types/
